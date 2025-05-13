@@ -4,7 +4,11 @@ import primier from "../../../public/primier.png";
 import whiskas from "../../../public/whiskas.png";
 import natural from "../../../public/natural.png";
 import Image from "next/image";
-import { FacebookLogo, InstagramLogo, YoutubeLogo } from "@phosphor-icons/react/dist/ssr";
+import {
+  FacebookLogo,
+  InstagramLogo,
+  YoutubeLogo,
+} from "@phosphor-icons/react/dist/ssr";
 
 const brands = [
   { name: "Royal Canin", logo: royal },
@@ -64,14 +68,14 @@ export function Footer() {
 
           <div>
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
-            <p>Email: teste@teste.com</p>
-            <p>Telefone: (XX) 1231831238</p>
-            <p>Rua X, centro, Campo Grande | MS</p>
+            <p>Email: carlosjrdev23@gmail.com</p>
+            <p>Telefone: (61) 99112-4457</p>
+            <p>Riacho Fundo I - Brasília | DF </p>
           </div>
 
           <div>
             <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
-            <div className="flex gap-4">
+            <div className="flex gap-6">
               <a href="https://www.facebook.com/seuusuario" target="_blank">
                 <FacebookLogo className="w-8 h-8" />
               </a>
